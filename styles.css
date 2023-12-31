@@ -19,21 +19,21 @@ body {
 @keyframes ani {
     0% {
         transform: scale(1)
-        rotate(-45deg)
+        /* rotate(-45deg) */
     }
     50% {
         transform: scale(1.2)
-        rotate(45deg)
+        /* rotate(45deg) */
     }
-    70% {
+    100% {
         transform: scale(0.9)
-        rotate(180deg)
+        /* rotate(180deg) */
     }
 
-    100% {
+    /* 100% {
         transform: scale(1)
         rotate(-45deg)
-    }
+    } */
 }
 /* @keyframes ani {
     0% {
